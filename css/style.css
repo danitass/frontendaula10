@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.inicio {
+  height: 70px;
+  background-color: #cc0066;
+  padding: 25px;
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.main-cards {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 300px;
+  height: 460px;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.card-1 {
+  margin-right: 30px;
+}
+
+.card_background {
+  background-image: url("../img/blob_4pmh.jpg");
+  height: 180px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  background-position: center;
+}
+
+.cardhellokitty {
+  background-image: url("../img/39-392969_hd-dark-iron-man-wallpapers-dark-wallpaper-for.png");
+  height: 180px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  background-position: center;
+}
+
+.card_produto {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 100px;
+  top: 130px;
+  border-radius: 80px;
+}
+
+.card_infos {
+  margin: 10px;
+}
+
+.teste {
+  margin-top: 40px;
+}
+
+.card_titulo {
+  text-align: center;
+  font-size: 22px;
+}
+
+.card_preco {
+  text-align: center;
+  font-size: 18px;
+}
+
+.card_descricao {
+  text-align: justify;
+  height: 131px;
+}
+
+.card_botao {
+  width: 150px;
+  height: 50px;
+  background-color: #cc0066;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card_botao a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+
+.headerprincipal {
+  height: 40px;
+  background-color: #ffb6c1;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+.rodape {
+  height: 45px;
+  background-color: #cc0066;
+  padding-top: 13px;
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.rodape a {
+  text-decoration: none;
+  color: white;
+}
